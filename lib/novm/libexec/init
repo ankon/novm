@@ -24,7 +24,6 @@ mount -t proc proc /proc
 mount -t sysfs sysfs /sys
 mount -t tmpfs tmpfs /run
 mount -t devtmpfs devtmpfs /dev
-mount -t devpts devpts /dev/pts
 
 # Load all virt-io modules.
 modprobe virtio
