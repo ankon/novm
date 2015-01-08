@@ -17,6 +17,8 @@
 # Small victory.
 echo "~~~ NOVM ~~~" >/dev/kmsg
 
+export PATH=/bin:/sbin
+
 # Mount proc, etc.
 mount -t proc proc /proc
 mount -t sysfs sysfs /sys
